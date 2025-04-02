@@ -1,0 +1,16 @@
+cd OneDrive\Desktop
+cd ATS
+conda create -p venv python==3.10 -y
+echo. > requirements.txt
+echo. > app.py
+dir
+echo. > .env
+dir
+conda activate venv/
+quirements.txt
+notepad requirements.txt
+pip install -r requirements.txt
+code app.py
+streamlit run app.py
+code app.py
+doskey /history > commands.txt
